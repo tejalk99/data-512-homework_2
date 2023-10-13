@@ -1,1 +1,1 @@
-# data-512-homework_2
+# Wikipedia State and City Article Quality Analysis

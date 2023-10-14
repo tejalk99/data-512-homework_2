@@ -21,7 +21,7 @@ Please see below for a list of datasets used and produced in this project.
   - *article_quality* (object): The quality of the article, as estimated by the ORES machine learning system.
 
 ### Special Considerations
-Please note that this analysis only contains 48 out of the 50 states (excludes Connecticut and Nebraska) due to limitations in the original *U.S. Cities by State* dataset. Additionally, this dataset contains over 600 duplicates and subsequently requires additional data cleaning.
+Please note that this analysis only contains 48 out of the 50 U.S. states (excludes Connecticut and Nebraska) due to limitations in the original *U.S. Cities by State* dataset. Additionally, this dataset contains over 600 duplicates and subsequently requires additional data cleaning.
 
 ## API
 Please see below for the APIs used and produced in this project:

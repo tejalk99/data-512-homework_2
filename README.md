@@ -20,6 +20,9 @@ Please see below for a list of datasets used and produced in this project.
   - *revision_id* (object): The revision ID of the article page.
   - *article_quality* (object): The quality of the article, as estimated by the ORES machine learning system.
 
+### Special Considerations
+Please note that this analysis only contains 48 out of the 50 states (excludes Connecticut and Nebraska) due to limitations in the original *U.S. Cities by State* dataset. Additionally, this dataset contains over 600 duplicates and subsequently requires additional data cleaning.
+
 ## API
 Please see below for the APIs used and produced in this project:
 
@@ -31,7 +34,7 @@ Code used in this analysis is detailed in the *Wikipedia State and City Article 
 
 Some code has been modified from code examples provided by Dr. David McDonald under the [Creative Commons](https://creativecommons.org) [CC-BY license](https://creativecommons.org/licenses/by/4.0/):
 
-- Article Page Info MediaWiki API Example (Revision 1.1 - August 14, 2023): This example describes how to request article page info using the MediaWiki API. It can be accessed at this [link](https://drive.google.com/file/d/15UoE16s-IccCTOXREjU3xDIz07tlpyrl/view?usp=drive_link)
+- Article Page Info MediaWiki API Example (Revision 1.1 - August 14, 2023): This example describes how to request article page info using the MediaWiki API. It can be accessed at this [link](https://drive.google.com/file/d/15UoE16s-IccCTOXREjU3xDIz07tlpyrl/view?usp=drive_link).
 - Requesting ORES scores through LiftWing ML Service API (Revision 1.0 - August 15, 2023): This example describes how to use the ORES API to obtain an article quality estimate for each article. It can be accessed at this [link](https://drive.google.com/file/d/17C9xsmR9U3lJeD52UTbAedlHDetwYsxs/view?usp=drive_link).
 
 ## Research Implications

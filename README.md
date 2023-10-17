@@ -24,7 +24,7 @@ Please see below for a list of datasets used and produced in this project.
 Please note that this analysis only contains 48 out of the 50 U.S. states (excludes Connecticut and Nebraska) due to limitations in the original *U.S. Cities by State* dataset. Additionally, this dataset contains over 600 duplicates and subsequently requires additional data cleaning.
 
 ## API
-Please see below for the APIs used and produced in this project:
+Please see below for the APIs used in this project:
 
 - MediaWiki REST API: This API accesss summary page info for the EN Wikipedia. A summary of this API is available [here](https://www.mediawiki.org/wiki/API:Main_page) and documentation can be accessed at this [link](https://www.mediawiki.org/wiki/API:Info).
 - ORES API: This API utilizes the [ORES machine learning system](https://www.mediawiki.org/wiki/ORES), and makes labeled predictions about the quality of Wikipedia articles, using these [content assessment procedures](https://en.wikipedia.org/wiki/Wikipedia:Content_assessment). For my analysis, I use the Liftwing version of ORES, and documentation is available at this [link](https://wikitech.wikimedia.org/wiki/Machine_Learning/LiftWing/Usage). General ORES documentation can also be accessed [here](https://ores.wikimedia.org/docs).
